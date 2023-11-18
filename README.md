@@ -1,5 +1,5 @@
 ## 👑 <a>Colaboradores do grupo RealTech</a>
-<div"><br>
+<div>
 <p>
   <img src="https://github.com/Projeto-Dev-Aula/cp2-front-web-2sem/assets/145347801/6e0947c2-817e-4c07-9507-36cf683b08f3" width="75" height="75" />  André Neves - RM 553515 
 </p>
