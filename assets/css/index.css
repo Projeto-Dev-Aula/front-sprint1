@@ -1,0 +1,313 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Inter-Regular.ttf) format('truetype'),
+    url(../fonts/Inter/Inter-Medium.ttf) format('truetype'),
+    url(../fonts/Inter/Inter-Bold.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+
+header {
+    background-color: #F2305F;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px;
+    height: 70px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+header nav a, header nav ul li a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+section p, section a {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+
+section h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+
+section h3 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.about {
+    background-color: #030224;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 120px 0 50px;
+}
+
+.about-img img {
+    width: 350px;
+    height: 350px;
+}
+
+.about-text {
+    width: 502px;
+    max-width: 100%;
+}
+
+.hc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hc-img {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.hc-img img {
+    width: 350px;
+    height: 350px;
+}
+
+.hc-text-wrapper {
+    background-color: #257189;
+    width: 65%;
+    padding: 100px 0;
+}
+
+.hc-text {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.problem {
+    background-color: #F6971D;
+    display: flex;
+    align-items: center;
+}
+
+.problem-text-wrapper {
+    padding: 130px 0;
+    width: 70%;
+}
+
+.problem-text {
+    max-width: 608px;
+    margin: 0 auto;
+}
+
+.problem img {
+    width: 265px;
+    height: 414px;
+}
+
+.solution {
+    display: flex;
+    justify-content: space-between;
+}
+
+.solution-text-wrapper {
+    background-color: #030224;
+    padding: 50px 0;
+    display: flex;
+    width: 55%;
+    align-items: center;
+}
+
+.solution-text {
+    margin: 0 auto;
+    max-width: 548px;
+}
+
+.solution-img {
+    background-color: #424A59;
+    height: 100%;
+    padding: 20px 0;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.us {
+    background-color: #257189;
+    text-align: center;
+}
+
+.us h2 {
+    padding: 100px 0 0 0;
+}
+
+.us h3 {
+    padding: 0 0 100px 0;
+}
+
+.us-img {
+    position: relative;
+    bottom: 0;
+}
+
+.contact {
+    background-color: #030224;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact-inputs {
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.contact-input-field {
+    display: flex;
+    height: 50px;
+}
+
+.contact-input-field label {
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px;
+}
+
+.contact-input-field:first-of-type label {
+    background-color: #F6971D;
+}
+
+.contact-input-field:last-of-type label {
+    background-color: #F2305F;
+}
+
+.contact-input-field input {
+    background-color: #D9D9D9;
+    color: #030224;
+    padding: 15px;
+    border: none;
+    height: 50px;
+    min-width: 310px;
+    max-width: 100%;
+}
+
+.contact-input-field input:focus {
+    outline: none;
+}
+
+.contact-message {
+    margin: 28px auto 0 auto;
+    max-width: 920px;
+}
+
+.contact-message label {
+    height: 40px;
+    display: block;
+    background-color: #40CBF6;
+    color: #030224;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.contact-message textarea {
+    width: 100%;
+    border: 0;
+    color: #030224;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px;
+}
+
+.contact-message textarea:focus {
+    outline: none;
+}
+
+.send-button {
+    width: 122px;
+    height: 50px;
+    background-color: #D9EDB4;
+    color: #030224;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.send-button.disabled {
+    opacity: .5;
+}
